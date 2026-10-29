@@ -1,25 +1,61 @@
-import { motion } from "framer-motion";
+import { motion, time } from "framer-motion";
 
 const agenda = [
   {
-    time: "08:30 AM",
-    title: "Guests Arrive",
-    description: "Welcome, greetings and gathering of loved ones.",
-  },
-  {
-    time: "09:00 AM",
-    title: "Wedding Ceremony",
-    description: "The beautiful beginning of their journey together.",
-  },
-  {
     time: "10:30 AM",
-    title: "Blessings & Photographs",
-    description: "A moment to celebrate with family and friends.",
+    title: "Invocation Prayer",
+    description:
+      "Beginning the wedding ceremony with prayer, inviting God's presence and blessings upon the couple.",
   },
   {
-    time: "12:30 PM",
-    title: "Lunch & Celebration",
-    description: "Good food, laughter and precious memories.",
+    title: "Worship Songs",
+    description:
+      "Songs of praise and worship, giving thanks to God for His love and faithfulness.",
+  },
+  {
+    title: "Groom's March",
+    description:
+      "The groom enters the church, accompanied by family and loved ones.",
+  },
+  {
+    title: "Bride's March",
+    description:
+      "The bride makes her graceful entrance as family and friends witness this special moment.",
+  },
+  {
+    title: "Bible Reading",
+    description:
+      "Scripture readings reflecting God's design for marriage, love, faithfulness and unity.",
+  },
+  {
+    title: "Wedding Sermon",
+    description:
+      "A message from God's Word on building a Christ-centred marriage.",
+  },
+  {
+    title: "Solemnization",
+    description:
+      "The marriage vows, exchange of rings and declaration of the couple's marriage before God and the congregation.",
+  },
+  {
+    title: "Vote of Thanks",
+    description:
+      "Expressing gratitude to God, the church, families and everyone who shared in the celebration.",
+  },
+  {
+    title: "Benediction",
+    description:
+      "A closing prayer for God's guidance, grace and blessings over the newly married couple.",
+  },
+  {
+    title: "Wedding March",
+    description:
+      "The newly married couple's joyful recessional, beginning their journey together as husband and wife.",
+  },
+  {
+    title: "Love Feast",
+    description:
+      "A time of fellowship, a shared meal and joyful celebration with family, friends and the church community.",
   },
 ];
 
@@ -347,7 +383,7 @@ export default function WeddingDetails() {
               margin: 0,
             }}
           >
-            Venue Name
+            Paradise Garden
           </h3>
 
           <p
@@ -364,7 +400,7 @@ export default function WeddingDetails() {
           </p>
 
           <a
-            href="https://maps.google.com"
+            href="https://maps.app.goo.gl/6mfmk3ssacTXpFVi9"
             target="_blank"
             rel="noopener noreferrer"
             style={{

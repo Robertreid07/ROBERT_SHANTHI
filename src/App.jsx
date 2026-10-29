@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 
 import EnvelopeIntro from "./components/EnvelopeIntro";
 import HeroSlide from "./components/HeroSlide";
-import InvitationSlide from "./components/InvitationSlide";
 import ScratchReveal from "./components/ScratchReveal";
+import InvitationSlide from "./components/InvitationSlide";
 import CountdownSlide from "./components/CountdownSlide";
 import WeddingDetails from "./components/WeddingDetails";
 import FinalSlide from "./components/FinalSlide";
@@ -50,8 +50,8 @@ function App() {
   }}
 >
   <HeroSlide />
-  <InvitationSlide />
   <ScratchReveal />
+  <InvitationSlide />
   <CountdownSlide />
   <WeddingDetails />
   <FinalSlide />

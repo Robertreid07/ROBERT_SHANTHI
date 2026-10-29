@@ -314,7 +314,7 @@ export default function ScratchReveal() {
             margin: "0 0 30px",
           }}
         >
-          Scratch to Reveal
+
         </h2>
 
         {/* SCRATCH CARD */}
