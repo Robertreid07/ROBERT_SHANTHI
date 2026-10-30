@@ -219,35 +219,26 @@ export default function FinalSlide() {
           boxSizing: "border-box",
         }}
       >
-        <p
-          style={{
-            color: "#bca890",
-            fontFamily: "'Cormorant Garamond', serif",
-            fontSize: "10px",
-            letterSpacing: "2.5px",
-            margin: "0 0 8px",
-          }}
-        >
-          DIGITAL INVITATION CRAFTED BY
-        </p>
 
         <a
-          href="https://samdirsipam.vercel.app"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            display: "inline-block",
-            color: "#d5c3a8",
-            fontFamily: "'Cormorant Garamond', serif",
-            fontSize: "13px",
-            letterSpacing: "1px",
-            textDecoration: "none",
-            borderBottom: "1px solid rgba(214,180,109,0.5)",
-            paddingBottom: "4px",
-          }}
-        >
-          SAM ↗
-        </a>
+  href="https://samdirsipam.vercel.app"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{
+    display: "inline-block",
+    color: "#D6B46D",
+    fontFamily: "'Cormorant Garamond', serif",
+    fontSize: "11px",
+    fontWeight: 500,
+    letterSpacing: "2px",
+    textTransform: "uppercase",
+    textDecoration: "none",
+    lineHeight: 1.8,
+    textAlign: "center",
+  }}
+>
+  DIGITAL INVITATION CRAFTED BY SAM ↗
+</a>
       </motion.div>
     </section>
   );

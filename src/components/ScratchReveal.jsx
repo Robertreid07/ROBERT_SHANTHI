@@ -405,7 +405,7 @@ export default function ScratchReveal() {
                 marginTop: "8px",
               }}
             >
-              10:00 AM
+              10:30 AM
             </div>
 
             {/* HEART */}
